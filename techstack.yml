@@ -2,7 +2,7 @@ repo_name: jadenblack/MemGPT
 report_id: 2e5840b698286652f00b5de6faee9aa2
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T16:15:08+00:00'
+timestamp: '2024-01-05T08:23:11+00:00'
 requested_by: cpacker
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/jadenblack/MemGPT
   detection_source: Repo Metadata
 - name: Chroma
   description: The AI-native open-source embedding database
@@ -26,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-12-11 05:20:33.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/MemGPT
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -46,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/.github/workflows/black_format.yml
   detection_source: ".github/workflows/black_format.yml"
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-11-30 21:30:58.000000000 Z
@@ -57,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-10-23 21:11:49.000000000 Z
@@ -69,6 +74,7 @@ tools:
   category: Application Utilities
   sub_category: Data Science Notebooks
   image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/jadenblack/MemGPT
   detection_source: Repo Metadata
 - name: LLaMA
   description: A foundational, 65-billion-parameter large language model (By Facebook)
@@ -78,6 +84,7 @@ tools:
   category: Communications
   sub_category: Large Language Models
   image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-10-23 21:11:49.000000000 Z
@@ -89,6 +96,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/docs/requirements.txt
   detection_source: docs/requirements.txt
   last_updated_by: Charles Packer
   last_updated_on: 2023-11-06 20:38:49.000000000 Z
@@ -100,6 +108,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Charles Packer
   last_updated_on: 2023-12-11 23:08:42.000000000 Z
@@ -222,6 +231,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/docs/requirements.txt
   detection_source: docs/requirements.txt
   last_updated_by: Charles Packer
   last_updated_on: 2023-11-28 00:30:41.000000000 Z
@@ -318,6 +328,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/docs/requirements.txt
   detection_source: docs/requirements.txt
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-12-01 22:36:07.000000000 Z
@@ -372,6 +383,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sarah Wooders
   last_updated_on: 2023-10-23 21:11:49.000000000 Z
@@ -440,6 +452,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Charles Packer
   last_updated_on: 2023-12-11 23:08:42.000000000 Z
