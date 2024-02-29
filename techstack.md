@@ -4,12 +4,12 @@
 jadenblack/MemGPT is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
+- [Chroma](https://www.trychroma.com/) – Vector Databases
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
+- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
-- [Chroma](https://www.trychroma.com/) – Databases
-- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 
 Full tech stack [here](/techstack.md)
 
@@ -20,12 +20,12 @@ Full tech stack [here](/techstack.md)
 jadenblack/MemGPT is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
+- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Vector Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
+- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg' alt='LlamaIndex'/> [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 
 Full tech stack [here](/techstack.md)
 
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [jadenblack/MemGPT](https://github.com/jadenblack/MemGPT)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|35<br/>Tools used|01/05/24 <br/>Report generated|
+|35<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -143,7 +143,7 @@ Full tech stack [here](/techstack.md)
 |[chromadb](https://pypi.org/project/chromadb)|v0.4.18|12/11/23|Sarah Wooders |N/A|N/A|
 |[docstring-parser](https://pypi.org/project/docstring-parser)|v0.15|11/13/23|Charles Packer |MIT|N/A|
 |[docutils](https://pypi.org/project/docutils)|v0.18|11/06/23|Charles Packer |Unlicense,Python-2.0,BSD-2-Clause,CNRI-Python-GPL-Compatible|N/A|
-|[fastapi](https://pypi.org/project/fastapi)|v0.104.1|12/11/23|Charles Packer |MIT|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.104.1|12/11/23|Charles Packer |MIT|[](https://github.com/advisories/GHSA-qf9m-vfgh-m389) (High)<br/>[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)|
 |[html2text](https://pypi.org/project/html2text)|v2020.1.16|12/16/23|Charles Packer |GPL-3.0|N/A|
 |[httpx](https://pypi.org/project/httpx)|v0.25.2|11/28/23|Sarah Wooders |BSD-3-Clause|N/A|
 |[huggingface-hub](https://pypi.org/project/huggingface-hub)|v0.17.3|11/07/23|Sarah Wooders |N/A|N/A|
