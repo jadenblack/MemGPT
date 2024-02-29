@@ -2,7 +2,7 @@ repo_name: jadenblack/MemGPT
 report_id: 2e5840b698286652f00b5de6faee9aa2
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:23:11+00:00'
+timestamp: '2024-02-29T19:03:01+00:00'
 requested_by: cpacker
 provider: github
 branch: main
@@ -25,7 +25,7 @@ tools:
   open_source: true
   hosted_saas: false
   category: Data Stores
-  sub_category: Databases
+  sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
   detection_source_url: https://github.com/jadenblack/MemGPT/blob/main/pyproject.toml
   detection_source: pyproject.toml
@@ -181,6 +181,19 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Charles Packer
   last_updated_on: 2023-12-11 23:08:42.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: FastAPI Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qf9m-vfgh-m389
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.109.1
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.109.1
 - name: html2text
   description: Turn HTML into equivalent Markdown-structured text
   package_url: https://pypi.org/project/html2text
